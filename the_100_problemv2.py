@@ -189,9 +189,10 @@ def system_search(num_length, target, running_num_dict = None):
             running_num_dict = add_ops(running_num_dict)
             op_count += 1
             if op_count>1:
-                print('Now testing with',op_count,'operators' )
+                print('Now testing with combinations of',op_count,'operators\
+                                                    at various positions')
             else:
-                print('Now testing with',op_count,' operator' )
+                print('Now testing with',op_count,'operator at various positions' )
             
         else:
             print('the programme has finished')
