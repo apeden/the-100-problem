@@ -198,6 +198,8 @@ def system_search(num_length, target, running_num_dict = None):
             print('the programme has finished')
             print(search_dict(running_num_dict, target))
             break
+
+    if search_dict(running_num_dict, target) == False:
         print('We could not find a solution')
     
     
